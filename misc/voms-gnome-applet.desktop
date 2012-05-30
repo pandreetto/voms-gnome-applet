@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VOMS Gnome applet
+Comment=Gnome applet for VOMS
+Icon=voms-gnome-applet
+Exec=voms-gnome-applet -c
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=GNOME;GTK;Settings;X-GNOME-NetworkSettings;
+OnlyShowIn=GNOME;
+

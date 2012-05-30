@@ -1,0 +1,15 @@
+Source:  voms-gnome-applet
+Section:  gnome
+Priority:  optional
+Maintainer:  Paolo Andreetto <paolo.andreetto@pd.infn.it>
+Build-Depends: debhelper (>= 6), cmake, inkscape, pkg-config,
+ libglibmm-2.4-dev, libglademm-2.4-dev, libgtkmm-2.4-dev,
+ libgconf2-dev
+Standards-Version:  0.1.0
+
+Package: voms-gnome-applet
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: dialog for VOMS proxy creation
+ voms-gnome-applet is an application used to manage
+ VOMS proxies
